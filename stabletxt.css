@@ -1,0 +1,51 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Case Problem 1
+
+   Sudoku Puzzle Table Style Sheet
+   Author: Eugene Khom
+   Date:   04/08/2020
+
+   Filename:         stable.css
+   Supporting Files: green.jpg, gold.jpg
+
+*/
+
+table.spuzzle {
+   border-collapse: collapse;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   }
+   table.spuzzle td {
+   border: 5px outset gray;
+   width: 33.3%;
+   }
+   table.spuzzle th {
+   color: black;
+   padding: 10px;
+   }
+   
+   /* Inner Table Styles */
+   table.subTable {
+   border-collapse: collapse;
+   width: 100%;
+   }
+   table.subTable td {
+   box-shadow: 0px 0px 15px inset;
+   border: 1px solid black;
+   color: gray;
+   height: 40px;
+   text-align: center;
+   vertical-align: middle;
+   }
+   td.goldBox {
+   background-color: rgb(228, 199, 42);
+   }
+   td.greenBox {
+   background-color: rgb(203, 229, 130);
+   }
+
